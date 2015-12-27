@@ -1,0 +1,2168 @@
+/*UHA Red = #C50408*/
+
+/*30,144,255 is KOHA blue rgb(30,144,255) */
+
+/*FontAwesome*/
+@media (min-width: 768px) {
+
+    .form-inline .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle;
+        margin-top: 5px;
+        height: 35px !important;
+    }
+}
+
+
+[class^="icon-"], [class*=" icon-"] {
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: inherit;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*Liblime Support tweaks*/
+#loaddate-limit {
+    display: none;
+}
+#createdate-limit {
+    display: none;
+}
+nav li.rfi {
+    display: none;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #ffffff;
+}
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*UHA Red = #C50408*/
+a {
+    color: #C50408;
+    text-decoration: none;
+}
+ul li {
+    list-style-type: none;
+}
+#public-masthead {
+
+    /* background-color: #C50408; */
+    text-align: center;
+}
+#public-masthead .nav-pills {
+    display: inline-block;
+    line-height: 100%;
+    border-radius: 0px;
+    padding-top: 0px;
+    padding-right: 4px;
+    padding-bottom: 0px;
+    padding-left: 4px;
+}
+#public-masthead {
+    background: #ebebeb; /* Old browsers */
+    background: linear-gradient(to bottom, #ebebeb 0%, #adadad 100%); /* W3C */
+    border: none;
+}
+#public-masthead > nav.row.hidden-xs > ul {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+#public-masthead .nav-pills a:hover {
+    text-decoration: none;
+    background-color: #eee;
+    border: 4px solid #d0d0d0;
+    border-radius: 0px;
+    color: white !important;
+}
+#public-masthead > nav.row.hidden-xs > ul.nav.nav-pills > li > a:link {
+    background-color: #C50408;
+    color: white !important;
+}
+#public-masthead > nav.row.hidden-xs > ul.nav.nav-pills > li > a:visited {
+    background-color: #C50408;
+    color: white !important;
+}
+#public-masthead > nav.row.hidden-xs > ul.nav.nav-pills > li > a:hover {
+    background-color: #C50408;
+    color: white !important;
+    border-radius: 4px !important;
+}
+#public-masthead > nav.row.hidden-xs > ul.nav.nav-pills > li > a:active {
+    background-color: #C50408;
+    border: none;
+    color: white !important;
+}
+.course-reserves-link .active {
+    border-radius: 0px;
+}
+.nav-pills>li+li {
+    margin-left: 4px;
+}
+.nav-pills>li {
+    float: left;
+}
+.nav>li {
+    position: relative;
+    display: block;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white !important;
+}
+#public-masthead .nav-pills {
+    display: inline-block;
+    line-height: 100%;
+    border: none;  /*  padding: 4px;*/
+    color: white !important;
+}
+#public-masthead .nav-pills a:hover {
+    text-decoration: none;
+    background-color: #C50408;
+    border: none;
+    color: white !important;
+}
+#public-masthead .nav-pills a.active {
+    background-color: #C50408;
+    border: 1px solid #d0d0d0;
+    border-radius: 4px !important;
+    color: white !important;
+}
+#public-masthead nav.row.hidden-xs > ul.nav.nav-pills>li>a:hover {
+    border-color: #000000;
+    background-color: #A40307;
+}
+.active {
+    margin-top: -1px;
+}
+div.newbibdata a {
+    color: #C50408 !important;
+    text-decoration: none !important;
+}
+div.newbibdata a:hover {
+    color: #c50409 !important;
+    text-decoration: none !important;
+}
+
+/*NEW CODE NOV 15TH*/
+span.rowentry {
+    display: block;
+}
+.uniformtitles_hover {
+    background: rgba(246, 222, 83, .7);
+    padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    margin-left: -1px;/*padding: 1px 1px; 
+    margin: -1px -1px; */
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;/*padding-right: 2px; */
+}
+.uniformtitles_hover:hover {
+
+    /*padding-right: -2px;*/
+}
+span.rowentry a {
+    padding-top: 1px;
+    padding-right: 2px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-right: -1px;
+    margin-left: -1px;/*padding: 1px 1px; 
+    margin: -1px -1px; */
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+}
+
+/*BEGIN CSS FOR TITLE TEXT*/
+h4.display_title {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    display: block !important;
+    line-height: 26px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+    width: 100% !important;
+    color: #000000 !important;
+}
+
+span.titleText::after { 
+ content: " ";
+}
+
+span.titleText:after { 
+ content: " ";
+}
+/*END CSS FOR TITLE TEXT*/
+
+
+/*008 - Fixed-Length Data Elements-General Information (NR) ---> gen_info_labelBDR*/
+.gen_info_labelBDR {
+    line-height: 18px !important;
+    color: #000000 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.gen_info_dataitemBDR {
+    line-height: 14px !important;
+    color: #000000 !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+
+/*LABEL FOR TEXT ON BIB DETAIL RECORD ALL HAVE CLASS .newbibdata*/
+
+/*EXAMPLE-> Publisher:*/
+.newbibdata {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+    color: #000000 !important;
+}
+
+/*watch Series: when modifying newbibdata*/
+
+/*.data_item, div.newlocation > span, div.newavailability > span, div.newavailstats > span{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400;
+}*/
+
+/*WATCH SERIES 440,490,830 DATA FONT SIZE AS THE ABOVE FONT SIZE CHANGES*/
+
+
+.marc5XX {
+    display: block !important;
+}
+.marc505_withPre {
+    display: block !important;
+}
+.marc505_withPre:after {
+    content: '\A' !important;
+    white-space: pre !important;   /* margin-top: 4px !important;*/
+}
+.marc505_withPre:last-child:after {
+    content: "" !important;
+}
+.marc505_withPre + .marc505_withPre {
+    margin-top: 5px !important;
+}
+.marc600 {
+    display: block !important;
+}
+.marc6XX > .subfield {
+    margin-left: 0px !important;
+}
+.marc7XX > span.bc::before {
+    content: " > " !important;
+}
+
+/*UHA Red = #C50408*/
+#newsummaryinfo {
+    background-color: rgb(255, 255, 255) !important;
+}
+
+/*marc500 as block?*/
+.marc130new, .marc700new, .marc710new, .marc711new, .marc511new, .marc505new, .marc500new, .marc520new, .marc6s, .marc590new, .series, .marc260264 {
+    margin-left: 10px !important;
+    display: block !important;
+}
+
+
+div.newseries a {
+    color: #C50408 !important;
+    text-decoration: none !important;
+}
+div.newseries a:hover {
+    color: #c50409 !important;
+    text-decoration: none !important;
+}
+span[class^="series"] {
+
+    /*THIS IS FOR THE 440,490 & 830 FIELDS-ONLY!*/
+    margin-left: 2px !important;
+    font-size: 14px !important;/*    display: block;*/
+}
+
+/*begin People/Groups involved with this Visual Material*/
+span.marc710new a {
+    color: #C50408 !important;
+    text-decoration: none !important;
+}
+span.marc710new a:hover {
+    color: #c50409 !important;
+    text-decoration: none !important;
+}
+
+/*end People/Groups involved with this Visual Material*/
+.newbiblabel {
+    line-height: 18px !important;
+    color: #000000 !important;
+    font-size: 16px !important;
+    font-weight: bold !important;
+}
+.newbiblabel_inline {
+    line-height: 18px !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color: #000000 !important;
+    padding-right: 3px !important;
+}
+.sidebartext {
+    color: #000000 !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    font-weight: bold !important;
+}
+.newbiblabel15px {
+    color: #000000 !important;
+    font-size: 15px !important;
+    font-weight: bold !important;
+}
+.indent_data {
+    padding-left: 3px !important;
+}
+
+/*THIS CREATES SPACE FOR 008 DATA*/
+.pushright {
+    padding-left: 0px !important;
+}
+.paddingRight {
+    padding-right: 3px !important;
+    font-size: 18px !important;
+}
+.paddingLeft {
+    padding-left: 10px !important;/*    color: maroon !important;*/
+
+    /*    font-size: 18px !important;*/
+}
+.paddingBoth {
+    padding-right: 5px !important;
+    padding-left: 5px !important;
+    color: maroon !important;
+    font-size: 18px !important;
+}
+.main_divider {
+    padding-left: 4px !important;
+    padding-right: 4px !important;  /*font-weight: bold !important;*/
+    color: maroon !important;
+    font-size: 18px !important;
+}
+#bib-details-newCallNumber {
+    font-size: 12px !important;
+}
+
+/*UHA Red = #C50408*/
+.breadcrumb_after::after {
+    content: " > " !important;
+}
+.breadcrumb_before::before {
+    content: " > " !important;
+}
+#oi {
+    width: 20px !important;
+    height: 15px !important;
+}
+h6.display_label {
+    margin-top: 3px !important;
+    margin-bottom: 3px !important;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    line-height: 18px !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color: #000000 !important;
+}
+div.newbib-details  div.newbibdata {
+    margin-left: 20px !important;
+    width: 90% !important;
+}
+div.span7.bib-details h4 {
+    width: 75% !important;
+    margin-left: 50px !important;
+}
+.margin_top {
+
+    /*THE SPACE BETWEEN ROWS FOR THE BIB LABELS READ ON margin-top for CSS*/
+    margin-top: 4px !important;
+}
+.margin_bottom_gen_info {
+
+    /*THE SPACE BETWEEN ROWS FOR THE BIB LABELS READ ON margin-top for CSS*/
+    margin-top: 4px !important;
+}
+
+/*THE CSS BELOW IS FOR THE - Fixed-Length Data Elements-General Information (NR)*/
+
+/*So if you wanted to create a block with a special background etc that has the group of  Type, Format, Nature of Contents, Target Audience ETC you would
+make the changes to this class below*/
+.newformatdata {
+
+    /* background-color: #E8E8E8; */
+}
+
+/*THIS IS A NICE FEATURE BUT NOT TO A CATALOGER SEE- 505'S FOR Federal resume guidebook 
+span.marc505_withPre::first-letter{
+font-weight:bold;
+}
+*/
+
+/*END CSS MAINLY FOR BIB DETAIL RECORDS*/
+
+/*BEGIN CSS MAINLY FOR SEARCH RESULTS PAGE*/
+
+/*LEFT NAV BAR FACETS STATS BELOW*/
+#facets a:hover {
+    color: #c50408 !important;
+    text-decoration: none !important;
+}
+#facets {
+    margin-top: 12px;
+    font-size: 14px !important;    /*line-height: 22px !important;*/
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    line-height: 20px !important;
+    color: #000000 !important;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #e8e8e8 0, #f5f5f5 100%);
+    background-repeat: repeat-x;
+    border-color: #dcdcdc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+}
+#facets ul.nav-list {
+    padding-left: 10px !important;
+}
+
+/*Owned By, Format, Author, Topic, etc*/
+li.facet_name > span.nav-header {
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+
+/*UHA Red = #C50408*/
+
+/*Refine your search*/
+#facets > div > section > h5 {
+
+    /*Refine your search*/
+    font-size: 18px !important;
+    padding-left: 6px !important;
+    color: #C50408 !important;
+}
+
+/*<ul class="nav nav-list">
+<!-- ngRepeat: facet_val in facet.values -->
+<li class="facet-link ng-scope" ng-repeat="facet_val in facet.values">
+<span facet="facet_val" class="ng-binding ng-isolate-scope">
+<a href="/app/search/sound?owned-by=%22ALLEN%22" title="Refine search" class="ng-binding">Allen Library</a>
+ (20942)</span>
+ </li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22MORTENSEN%22" title="Refine search" class="ng-binding">Mortensen Library</a> (1222)</span></li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22UHARTFORD%22" title="Refine search" class="ng-binding">University of Hartford</a> (28)</span></li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22CAREERSERV%22" title="Refine search" class="ng-binding">Career Services</a> (4)</span></li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22PERFLIB%22" title="Refine search" class="ng-binding">Hartt Performance Library</a> (1)</span></li><!-- end ngRepeat: facet_val in facet.values -->
+<li class="more-facets ng-hide" ng-show="facet.expandable">
+  <a href="" ng-click="facetDlgOpen(facet.field)"><i class="icon-ellipsis-horizontal"></i> more <i class="icon-ellipsis-horizontal"></i></a>
+</li>
+</ul>*/
+
+/*<li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span class="ng-binding ng-isolate-scope" facet="facet_val">
+<a title="Refine search" class="ng-binding" href="/app/search/*:*?owned-by=%22ALLEN%22&amp;sort=popularity%20desc">Allen Library</a> (69213)</span></li>*/
+
+/*Allen Library (20942)
+Mortensen Library (1222)
+University of Hartford (28)
+Career Services (4)
+Hartt Performance Library (1)*/
+li.facet-link > span > a:hover {
+    background-color: #dddddd; /* Light Gray background upon hover if you want */
+}
+li.facet-link {
+    line-height: 22px;
+}
+
+/* end of LEFT NAV BAR FACETS STATS ABOVE*/
+
+/*MAIN CONTENT AREA FOR SEARCH RESULTS BELOW, SIMILAR TO BDR VERSIONS BUT CHANGE FONT PROPERTIES AS NEEDED.*/
+
+/*008 - Fixed-Length Data Elements-General Information (NR) ---> gen_info_labelBDR*/
+.gen_info_labelSRP {
+    line-height: 18px !important;
+    color: #000000 !important;
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+.gen_info_dataitemSRP {
+    line-height: 14px !important;
+    color: #000000 !important;
+    font-size: 12px !important;
+    font-weight: normal !important;
+}
+.allnew {
+    line-height: 22px !important;
+}
+.displaylabel_titleSRP {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.gameorequip {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 14px !important;
+    font-weight: 400;
+}
+.data_itemSRP {
+    font-size: 13px !important;
+}
+.data_item_blockSRP {
+}
+.newbiblabel_inlineSRP {
+    line-height: 18px !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color: #000000 !important;
+    padding-right: 3px !important;
+}
+
+/*<div class="search-summary col-md-7 well well-small ng-scope" ui-view="searchsummary">*/
+div.search-summary.col-md-7.well {
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+    margin-right: 20px !important;    /* margin-left: 10px; */
+    position: relative;
+}
+#search-results-action {
+    font-size: smaller;
+    margin-bottom: -10px;
+}
+
+/*List , Images buttons*/
+#search-results-action  .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group {
+    margin-left: -1px;
+}
+#search-results-action  .btn-group>.btn-group {
+    float: left;
+    padding-top: 2px;
+}
+#search-results-action  div.view-controls-container {
+    padding-left: 10px;
+}
+#search-results-action  .btn-group, .btn-group-vertical {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*END CSS MAINLY FOR SEARCH RESULTS PAGE*/
+
+/*Make this white */
+div.span2 a:hover {
+    color: #ffffff !important;
+    text-decoration: underline;
+}
+
+/*??*/
+.well {
+
+    /*    margin-top: 10px;*/
+    margin-bottom: 10px;
+    margin-right: 20px;  /*  margin-left: 10px;*/
+}
+.well2 {
+    min-height: 20px;
+    padding: 10px 5px 10px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    border-radius: 4px;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+a:hover, a:focus {
+    color: #cc3333 !important;
+    text-decoration: none !important;
+}
+
+/*
+http://www.cssportal.com/css3-rgba-generator/
+background-color: rgba(246, 222, 83, 0.7); 
+color: rgba(246, 222, 83, 0.7);
+*/
+.allnewhover > a {
+    background: rgba(246, 222, 83, .7);
+    padding: 1px 1px;
+    margin: -1px -1px;
+    border-radius: 0px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+}
+#wrap-details-sidebar {
+}
+
+.uniformtitlesdata_hover {
+    background: rgba(246, 222, 83, .7);
+    padding: 1px 1px;
+    margin: -1px -1px;
+    border-radius: 0px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    border-radius: 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
+}
+
+/*Begin For Maps*/
+#bib-details-map {
+    position: relative;
+}
+.yellowrectangle {
+    position: absolute;
+}
+#details-sidebar img {
+    max-width: none;
+}
+#details-sidebar {
+
+    /*margin-right:20px;*/
+}
+.new_small_text {
+    font-size: 14px !important;
+    color: #000000 !important;
+}
+#bib-details-map img:hover {
+    cursor: pointer;
+}
+
+/*End for Maps*/
+li.ng-binding.ng-scope {
+}
+#bib-details-actions > ul.nav.nav-list >:first-child {
+}
+div.newtitle {
+    width: 70%;
+    font-size: 18px;
+}
+div.bybelowtitle {
+    width: 70%;
+}
+.newhorizline {
+    clear: both;
+    float: none;
+    width: 70%;
+    height: 2px;
+    margin: 0.5em 0;
+    border: none;
+    background: #ddd;
+}
+#bib-details-export > select {
+    width: 70%;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+}
+.conjunction {
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+}
+.greenmeansgo {
+    color: #228B22;
+}
+.footermargins {
+    padding-top: 0px;
+}
+#footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#dynamic_footer {
+    display: none;
+}
+.footer-lhs {
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+.footer-rhs {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+/*??*/
+#main-content {
+    background-color: #F5F5F5;
+    border-style: solid;
+    border-bottom-width: 6px;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-color: #b80302;
+    padding-bottom: 10px;
+}
+#chat {
+    margin-bottom: 30px;
+}
+
+/*For course reserves*/
+
+/*Course Reserves*/
+#main-content.row.ng-scope > div.container-fluid.ng-scope h4 {
+    padding-left: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #C50408;
+}
+
+/*Courses*/
+#main-content.row.ng-scope > div.container-fluid.ng-scope h5 {
+    padding-left: 30px;
+    font-size: 20px;
+}
+#main-content.row.ng-scope > div.container-fluid.ng-scope label {
+    padding-left: 40px;
+    font-size: 12px;
+}
+#main-content.row.ng-scope > div.container-fluid.ng-scope table {
+    width: 90%;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+/*For course reserves and the html table*/
+
+/*div#main-content > div.row-fluid.ng-scope > div.ng-scope >  table{
+width:80%;
+margin: 0 auto !important;
+float: none !important;
+}*/
+
+
+#masthead {
+    background-color: #C50408;
+    text-align: center;
+}
+.marc6XX > .subfield:after {
+    margin: 2px;
+}
+h6.special_libraries {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 16px;
+    color: rgba(185, 7, 7, 0.92);
+}
+.scrollToTop {
+    width: 31px;
+    height: 31px;
+    position: fixed;
+    bottom: 55px;
+    right: 5px;
+    display: none;
+    text-align: right; /*   text-indent: -9999px;*/
+    background: url('http://jpf.dynu.com/koha/bin514/images/uparrow32x32.png') no-repeat; /*   background-color: #000;*/
+}
+.scrollToTop:hover {
+    text-decoration: none;
+}
+a.btn-primary.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+a.btn-primary {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #5c5c5c;
+    background-image: linear-gradient(to bottom, #666666, #4d4d4d);
+    background-repeat: repeat-x;
+    border-color: #4d4d4d #4d4d4d #262626;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+a.btn-primary:hover, a.btn-primary:focus, a.btn-primary:active, a.btn-primary:disabled, a.btn-primary[disabled] {
+    color: #ffffff;
+    background-color: #4d4d4d;
+}
+a.btn-primary:active {
+    background-color: #333333;
+}
+#searchsubmit.btn-sm {
+    margin-top: 1px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #b10407;
+    background-image: linear-gradient(to bottom, #c50408, #930306);
+    background-repeat: repeat-x;
+    border-color: #930306 #930306 #480103 #480103;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+#searchsubmit.btn-sm:active {
+    color: white;
+}
+#searchsubmit.btn-sm:hover, #searchsubmit.btn-sm:focus, #searchsubmit.btn-sm:active, #searchsubmit.btn-sm.active, #searchsubmit.btn-sm.disabled, #searchsubmit.btn-sm[disabled] {
+    color: #ffffff;
+    background-color: #930306;
+}
+#searchsubmit.btn-sm:active {
+    background-color: #610204;
+}
+
+/*Clear button below*/
+
+/*<button type="button" id="clearMastHead" class="btn btn-sm btn-default" ng-click="clearMastheadSearch()">Clear All</button>*/
+#clearMastHead.btn.btn-sm {
+    margin-top: 1px;
+}
+
+/*Right side bar dropdowns*/
+ul.dropdown-menu.lists  li {
+    background-color: #ededed;
+}
+ul.dropdown-menu.lists  li a {
+    color: #c50408;
+}
+ul.dropdown-menu.lists  li a:hover {
+    background: #C0C0C0;
+}
+
+/* */
+#listmenu.btn-primary.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+#listmenu.btn-primary {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #b10407;
+    background-image: linear-gradient(to bottom, #c50408, #930306);
+    background-repeat: repeat-x;/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc50408', endColorstr='#ff930306', GradientType=0);*/
+    border-color: #930306 #930306 #480103;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+    /*  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
+}
+#listmenu.btn-primary:hover, button#listmenu.btn-primary:focus, button#listmenu.btn-primary:active, button#listmenu.btn-primary.active, button#listmenu.btn-primary.disabled, button#listmenu.btn-primary[disabled] {
+    color: #ffffff;
+    background-color: #930306;
+}
+#listmenu.btn-primary:active, button#listmenu.btn-primary.active {
+    background-color: #610204;
+}
+
+/*span > button.btn.btn-primary.ng-binding.ng-scope{
+}*/
+span > button.btn.btn-primary.ng-binding.ng-scope.active {
+    color: rgba(255, 255, 255, 0.75);
+}
+span > button.btn.btn-primary.ng-binding.ng-scope {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #b10407;
+    background-image: linear-gradient(to bottom, #c50408, #930306);
+    background-repeat: repeat-x;/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc50408', endColorstr='#ff930306', GradientType=0);*/
+    border-color: #930306 #930306 #480103;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+    /*  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
+}
+span > button.btn.btn-primary.ng-binding.ng-scope:hover, span > button.btn.btn-primary.ng-binding.ng-scope:focus, span > button.btn.btn-primary.ng-binding.ng-scope:active, span > button.btn.btn-primary.ng-binding.ng-scope.active, span > button.btn.btn-primary.ng-binding.ng-scope.disabled, span > button.btn.btn-primary.ng-binding.ng-scope[disabled] {
+    color: #ffffff;
+    background-color: #930306;
+}
+span > button.btn.btn-primary.ng-binding.ng-scope:active, span > button.btn.btn-primary.ng-binding.ng-scope.active {
+    background-color: #610204;
+}
+div.col-md-3.cartlist-cnt > span > span > button.btn-primary {
+    color: rgba(255, 255, 255, 0.75);
+}
+div.col-md-3.cartlist-cnt > span > span > button.btn-primary {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #b10407;
+    background-image: linear-gradient(to bottom, #c50408, #930306);
+    background-repeat: repeat-x;/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc50408', endColorstr='#ff930306', GradientType=0);*/
+    border-color: #930306 #930306 #480103;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+    /*  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
+}
+div.col-md-3.cartlist-cnt > span > span > button.btn-primary:hover, div.col-md-3.cartlist-cnt > span > span > button.btn-primary:focus, div.col-md-3.cartlist-cnt > span > span > button.btn-primary:active, div.col-md-3.cartlist-cnt > span > span > button.btn-primary.active, div.col-md-3.cartlist-cnt > span > span > button.btn-primary.disabled, div.col-md-3.cartlist-cnt > span > span > button.btn-primary[disabled] {
+    color: #ffffff;
+    background-color: #930306;
+}
+div.col-md-3.cartlist-cnt > span > span > button.btn-primary:active, div.col-md-3.cartlist-cnt > span > span > button.btn-primary.active {
+    background-color: #610204;
+}
+#scalableim {
+    width: 100%;
+    float: left;
+}
+
+/*Home page right side*/
+.rhsbutton.active {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.rhsbutton {
+    width: 150px !important;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #5c5c5c !important;
+    background-image: linear-gradient(to bottom, #666666, #4d4d4d);
+    background-repeat: repeat-x;
+    border-color: #4d4d4d;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    background-color: #4d4d4e !important;
+}
+.rhsbutton:hover, .rhsbutton:focus, .rhsbutton:active, .rhsbutton.active, .rhsbutton.disabled, .rhsbutton[disabled] {
+    color: #ffffff !important;
+    background-color: #4d4d4d !important;
+    background-color: #404040 !important;
+}
+.rhsbutton:active, .rhsbutton.active {
+    background-color: #333333 !important;
+}
+
+/*RHS BUTTON AND LIGHT BLUE*/
+.rhsbutton_blue.active {
+    color: rgba(255, 255, 255, 0.75) !important;
+}
+.rhsbutton_blue {
+    width: 150px !important;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+    background-color: #1794dc !important;
+    background-image: linear-gradient(to bottom, #1ba0ec, #1082c4) !important;
+    background-repeat: repeat-x;/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1ba0ec', endColorstr='#ff1082c4', GradientType=0) !important;*/
+    border-color: #1082c4 #1082c4 #0a537d !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
+    background-color: #1082ce !important;  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
+
+    /*
+      filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) !important;*/
+}
+.rhsbutton_blue:hover, .rhsbutton_blue:focus, .rhsbutton_blue:active, .rhsbutton_blue.active, .rhsbutton_blue.disabled, .rhsbutton_blue[disabled] {
+    color: #ffffff !important;
+    background-color: #1082c4 !important;
+    background-color: #0e73ac !important;
+}
+.rhsbutton_blue:active, .rhsbutton_blue.active {
+    background-color: #0c6395 !important;
+}
+
+/*FOR ADVANCED SEARCH FORM*/
+
+/*VARIOUS INPUT CONTROLS FOR ADVANCED SEARCH PAGE BELOW*/
+
+/*<form name="advanced-search" ng-submit="doSearch()" 
+class="ng-valid ng-scope ng-valid-date ng-valid-min ng-valid-max ng-dirty ng-valid-parse ng-valid-number">*/
+
+/*form[name="advanced-search"] button.btn.btn-primary{ 
+13AM675G062 - Yard Machines Lawn Tractor (1998) (Lowes)
+} */   
+
+
+form[name="advanced-search"] fieldset[name="limits"] > ul.search-limit-types {
+}
+fieldset[name="limits"] {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-top: 10px;
+}
+div.ng-pristine.ng-untouched.ng-valid.ng-isolate-scope select.form-control {
+    display: block;
+    width: 20%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/* */
+
+/*Sort by*/
+li.search-sort-order.search-limit.form-inline select.form-control {
+    display: block;
+    width: 28% !important;
+    height: 34px !important;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+
+/* */
+form[name="advanced-search"] button.btn.btn-primary {
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+    background-color: #b10407 !important;
+    background-image: linear-gradient(to bottom, #c50408, #930306) !important;
+    background-repeat: repeat-x !important;/*    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc50408', endColorstr='#ff930306', GradientType=0) !important;*/
+    border-color: #930306 #930306 #480103 !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;/*    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) !important;*/
+}
+form[name="advanced-search"] button.btn.btn-primary:hover, form[name="advanced-search"] button.btn.btn-primary:focus, form[name="advanced-search"] button.btn.btn-primary:active, form[name="advanced-search"] button.btn.btn-primary.active, form[name="advanced-search"] button.btn.btn-primary.disabled, form[name="advanced-search"] button.btn.btn-primary[disabled] {
+    color: #ffffff !important;
+    background-color: #930306 !important;
+}
+form[name="advanced-search"] button.btn.btn-primary:active, form[name="advanced-search"] button.btn.btn-primary.active {
+    background-color: #610204 !important;
+}
+
+/*FOR MODAL POPUP*/
+div.modal-footer > button.btn {
+    color: #ffffff !important;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
+    background-color: #b10407 !important;
+    background-image: linear-gradient(to bottom, #c50408, #930306) !important;
+    background-repeat: repeat-x !important;/*    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc50408', endColorstr='#ff930306', GradientType=0) !important;*/
+    border-color: #930306 #930306 #480103 !important;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;/*    filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) !important;*/
+}
+div.modal-footer > button.btn:hover, div.modal-footer > button.btn:focus, div.modal-footer > button.btn:active, div.modal-footer > button.btn.active, div.modal-footer > button.btn.disabled, div.modal-footer > button.btn[disabled] {
+    color: #ffffff !important;
+    background-color: #930306 !important;
+}
+div.modal-footer > button.btn:active, div.modal-footer > button.btn.active {
+    background-color: #610204 !important;
+}
+
+/*MAP POPUP 4 HOMEPAGE*/
+a.mapselected {
+    background-color: #CFCFCF;
+    color: white;
+    z-index: 100;
+}
+.mapslabel {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    line-height: 40px;
+    color: #b10407;
+    font-weight: 700;
+    background-color: #ffffff;
+}
+.centerdiv {
+    text-align: center !important;
+}
+.messagepop {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    cursor: default;
+    display: none;
+    margin-top: 15px;
+    position: absolute;
+    text-align: left;
+    width: 700px;
+    z-index: 50;
+    padding: 25px 25px 20px;
+}
+.messagepop p, .messagepop.div {
+    border-bottom: 1px solid #EFEFEF;
+    margin: 8px 0;
+    padding-bottom: 8px;
+}
+span.atag4homepagemap > a.close {
+    margin-left: 20px;
+    color: black;
+    opacity: 0.9;
+}
+
+/*END OF MAP POPUP 4 HOMEPAGE*/
+
+/*<div class="tabbable ng-isolate-scope" id="details-tabs" tabset="" style="width: 96%;">*/
+
+/*LANDING PAGE SLIDE DOWN MAPS*/
+#slide_down_mapMORTY, span#hideMortyMap {
+    color: #C50408;
+}
+#slide_down_mapMORTY:hover, span#hideMortyMap:hover {
+    cursor: pointer;
+}
+#slideMortyMapImage {
+    display: none;
+}
+#slide_down_mapALLEN, span#hideAllenMap {
+    color: #C50408;
+}
+#slide_down_mapALLEN:hover, span#hideAllenMap:hover {
+    cursor: pointer;
+}
+#slideAllenMapImage {
+    display: none;
+}
+.homepagemapsA, .homepagemapsM {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    font-size: 18px !important;
+    line-height: 20px !important;
+    color: #C50408 !important;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.homepagemapsA:hover, .homepagemapsM:hover {
+    cursor: pointer;
+}
+
+/*end of LANDING PAGE SLIDE DOWN MAPS*/
+
+/*Call # and Location CSS for right sidebar area*/
+#cn_and_loc {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #C50408 !important;
+    font-weight: 700;
+}
+
+/*FOR MOBILE DISPLAY CSS BELOW*/
+.mobile-header {
+    margin: 0em -1em 1.5em -1em;
+    padding: .2em 1em;
+    background-color: #C50408;
+    border-bottom: 1px solid #BED4EE;
+    text-align: center;
+}
+.pagination {
+    margin: 20px 5px; /*THIS AFFECTS DESKTOP AND MOBILE, BUT IMPROVES THE MOBILE DISPLAY MAINLY*/
+}
+div.cover-img:empty {
+    display: none !important;
+    margin-top: -1em;
+}
+#details-tabs.tabbable > div.tab-content div p {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 18px;
+    color: #C50408 !important;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+nav.visible-sm {
+    display: none
+}
+@media (max-width:480px) {
+    #search-results-nav {
+        top: -1px !important;
+        width: 84% !important;
+    }
+    #searchsubmit.btn-small {
+        margin-top: 0px;
+    }
+    button#clearMastHead.btn.btn-small {
+        margin-top: 0px;
+    }
+}
+@media (max-width:767px) {
+    #search-results-nav {
+        position: absolute !important;
+        top: -1px !important;/*    width: 84% !important;*/
+        width: 50%;
+        margin: auto;   /* padding: 9px !important;*/
+        border-radius: 3px !important;
+        border-radius: 3px !important;
+        border-radius: 3px !important;
+        text-align: center !important;
+        left: 0;
+        right: 0;
+        top: 0;
+    }
+    #searchsubmit.btn-small {
+        margin-top: 0px;
+    }
+    #clearMastHead.btn.btn-small {
+        margin-top: 0px;
+    }
+}
+
+/*BEGIN CSS FOR COURSE RESERVES*
+$('<p id="loadcode" class="newloading"><img src="http://jpf.dynu.com/koha/bin514/images/ajax-loader.gif" alt="Page Loading">
+Loading....Show me until finish tweaking</p>')
+*/
+div.loading {
+    opacity: 0.0 !important;
+}
+#loadcodeid {
+    background-color: #F5F5F5 !important;
+}
+#loadcode {
+    background-color: #F5F5F5 !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    line-height: 18px;
+    font-size: 16px;
+    padding: 15px;
+    border: 1px solid gray;
+}
+
+/*??*/
+#main-content.row.ng-scope > div.container-fluid.ng-scope table {
+    width: 100%;
+    margin: 0 auto !important;
+    float: none !important;
+}
+
+/*zebra stripes below*/
+.table-striped>tbody>tr:nth-of-type(odd) {
+
+    /*    background-color: #f9f9f9;*/
+    background-color: #E8E8E8;
+}
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+}
+.table>thead>tr>th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #ddd;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.2em;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+th {
+    text-align: left;
+}
+td, th {
+    padding: 0;
+}
+table.tablesorter thead tr .header {
+    background-image: url(http://jpf.dynu.com/koha/bin514/images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(http://jpf.dynu.com/koha/bin514/images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(http://jpf.dynu.com/koha/bin514/images/desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: rgba(199, 14, 18, 0.91);
+    color: white;
+}
+tr.course:hover {
+    background-color: #F0E68C !important;
+}
+
+/*BEGIN CSS for the revealed tables */
+tr#neg1 {
+    background-color: lightblue;
+}
+table[id^="pltbl"] {
+    table-layout: auto;
+    border: 1px solid black;
+    background-color:  rgba(173, 173, 170, 0.49);
+}
+table[id^="pltbl"] > thead > tr> th:first-child {
+    width: 30%;
+}
+table[id^="pltbl"] > thead > tr> th:last-child {
+    width: 30%;
+}
+table[id^="pltbl"] > thead > tr> th:nth-child(2) {
+    width: 10%;
+}
+span[id^="cid"] {
+    font-weight: bold;
+}
+[id^="pltbl"] {
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+[id^="pltbl"] th {
+    background-color: #D4D4D1;
+    height: 22px;
+    padding: 3px !important;
+    border: 1px solid black;
+}
+[id^="pltbl"] tr {
+
+    /*background-color:  green;*/
+    height: 14px;
+    padding: 3px !important;
+    border: 1px solid black;
+}
+[id^="pltbl"] tr:hover {
+    background-color: #E8E5E5 !important;
+}
+[id^="pltbl"] tr:nth-of-type(odd):hover {
+    background-color: lightgray;
+}
+[id^="pltbl"] tr:nth-of-type(odd) {
+/*    background-color: green;*/
+    background-color: rgba(183, 181, 181, 0.45);
+}
+[id^="pltbl"] td {
+    padding: 2px !important;
+    border: 1px solid black;
+    font-size: 12px;
+}
+
+/*[id^="pltbl"] {
+
+}*/
+tr.items_tbl_added {
+   /* THIS COLOR AFFECTS DYN TABLE BG COLOR AND ALT ROW COLOR*/
+    background-color: rgba(216, 211, 211, 0.5); !important;
+}
+
+/*END CSS for the revealed tables */
+.boldit {
+    font-weight: bold;
+    font-size: 110%;
+}
+.caption5 {
+    font-size: 120%;
+}
+.no_items4course {
+    font-weight: bold;
+    font-size: 120%;
+    color: red;
+}
+#temptable {
+    display: none;
+}
+
+/*??*/
+div.container-fluid > div.ng-scope h5 {
+    padding-left: 0px !important;
+}
+
+/*END CSS FOR COURSE RESERVES*/
+
+/*UHA Red = #C50408*/
+
+div.bdr-newbib-details div.bdr-newbibdata {
+    margin-left: 20px !important;
+    width: 90% !important;
+}
+
+/*For BDR right hand side*/
+
+/*Title Actions only, should be ONLY check this?*/
+ul.nav.nav-list>li.ng-scope>a {
+    position: relative;
+    display: block;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: #C50408 !important;
+}
+
+/*For print link BDR right hand side*/
+ul.nav.nav-list>li>a {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black !important;
+}
+
+/*By adding this below to fix Save Record on BDR did this break anything?*/
+#main-content.row.ng-scope > div.container-fluid.ng-scope h5 {
+    padding-left: 0px;
+    font-size: 18px;
+}
+#bib-details-actions > h5 {
+    padding-left: 0px !important;
+    margin-top: -2px;
+}
+#bib-details-actions > ul li > a {
+    color: #C50408;
+}
+
+/*begin FOR BIB DETAIL RECORDS > Title Actions > Search for this title in...*/
+
+/*Search for this title in... */
+#bib-details-actions ul.nav li.ng-scope > div.dropdown {
+    margin-bottom: 8px;
+}
+#bib-details-actions ul.nav li.ng-scope > div.dropdown > a {
+    color: black !important;/*this is the color of the text Search for this title in...*/
+}
+#bib-details-actions ul.nav li.ng-scope > div.dropdown > a span.caret {
+    color: white !important;
+    border-top-color: #C50408 !important;
+    border-bottom-color: #C50408 !important;
+    margin-top: 6px;
+}
+div.btn-group a.btn.btn-small.dropdown-toggle:hover {
+    color: white !important;
+}
+div ul.dropdown-menu > span li.yuimenuitem a.yuimenuitemlabel {
+    color: black !important;/*  this is the color of the text without hovering for WorldCat, Other databases etc*/
+    padding: 3px !important;
+    display: block;
+}
+div ul.dropdown-menu > span li.yuimenuitem a.yuimenuitemlabel:hover {
+    background: rgb(30, 144, 255) !important;  /*rgb(30,144,255) IS KOHA BLUE*/
+
+    /*SEARCH FOR THIS TITLE In KOHA background blue and text color becomes white when hovered*/
+    color: white !important
+}
+
+/*SEARCH FOR THIS TITLE - CARET*/
+div.btn-group > a.btn.btn-small.dropdown-toggle:hover .caret {
+    border-top-color: #C50408;
+    border-bottom-color: #C50408;
+}
+div.btn-group > a.btn.btn-small.dropdown-toggle:focus .caret {
+    border-top-color: #C50408;
+    border-bottom-color: #C50408;
+}
+
+/*end SEARCH FOR THIS TITLE - CARET*/
+
+/*end FOR BIB DETAIL RECORDS > Title Actions > Search for this title in...*/
+
+/*begin FOR BIB DETAIL RECORDS > Title Actions > View record as...*/
+#bib-details-actions ul li div.dropdown button {
+    color: black;
+}
+#bib-details-actions ul li div.dropdown button > span.caret {
+    border-top-color: #C50408;
+    border-bottom-color: #C50408;
+}
+#bib-details-actions ul li div.dropdown ul.dropdown-menu li > a {
+}
+
+/*VIEW RECORD AS.... DROPDOWN*/
+
+/*ul > li a.marcview, ul > li a.expandedmarcview , ul > li a.isbdmarcview, ul > li a.apaciteview{
+  color: purple;
+  text-decoration: none;
+}
+*/
+ul > li a.marcview:hover, ul > li a.expandedmarcview:hover, ul > li a.isbdmarcview:hover, ul > li a.apaciteview:hover {
+    color: white !important;
+    text-decoration: none !important;
+    background: rgb(30, 144, 255) !important;
+}
+.nav .dropdown-toggle .caret {
+
+    /*caret is little triangle*/
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+    margin-top: 6px;
+}
+a.dropdown-toggle  span.caret {
+    border-top-color: white !important;
+    border-bottom-color: #ECDCDC;
+    margin-top: 6px;
+}
+.nav:hover .dropdown-toggle:hover .caret:hover {
+    border-top-color: #000000;
+    border-bottom-color: #000000;
+    margin-top: 6px;
+}
+div.btn-group > button.btn.btn-small.dropdown-toggle:hover .caret {
+    border-top-color: #C50408;
+    border-bottom-color: #C50408;
+}
+div.btn-group > button.btn.btn-small.dropdown-toggle:focus .caret {
+    border-top-color: #C50408;
+    border-bottom-color: #C50408;
+}
+#bib-details-actions > ul li > a {
+
+    /*when the VIEW RECORD AS.... dropdown is clicked this is the color for the MARC, ISBD , APA etc    */
+    color: black;
+}
+
+/*end VIEW RECORD AS.... DROPDOWN*/
+
+/*end FOR BIB DETAIL RECORDS > Title Actions > View record as...*/
+
+
+#bib-details-export > h5 {
+    padding-left: 0px !important;
+    margin-top: -2px;
+}
+
+/*begin Bib Details > Save Record */
+
+/*end Bib Details > Save Record */
+
+/*BIB Details Holding Tab below*/
+
+/*Holdings tab for BDR*/
+
+/*??*/
+
+/*HOLDINGS TABLE CSS*/
+#details-tabs.tabbable {
+    margin: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+    background-color: #F5F5F5 !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+    color: #555;
+    cursor: default;
+    background-color: #c50408;
+    border: 1px solid #ddd;
+    border-bottom-color: transparent;
+}
+#details-tabs > ul.nav.nav-tabs {
+    width: 96% !important;
+    padding-left: 0px;
+    border-bottom: none;
+}
+#details-tabs >ul.nav.nav-tabs>li.active>a {
+    position: relative;
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white !important;
+}
+
+/*.nav-tabs {
+    border-bottom: 1px solid #ddd; 
+}*/
+
+/*.nav-tabs>li {
+   float: left;
+   margin-bottom: -1px;
+}*/
+
+/*div#details-tabs.nav {
+   padding-left: 15px;
+   margin-bottom: 0;
+   list-style: none;
+}*/
+
+/*HOLDINGS TABLE BELOW*/
+
+/*FIX THIS*/
+
+/*#details-tabs.tabbable{
+   margin: 0;
+   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+   font-size: 14px;
+   line-height: 16px;
+   color: #000000;
+   background-color: #ffffff;  
+}*/
+
+/*END OF HOLDINGS TABLE */
+
+/*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;) format*/
+
+/*select#format
+{
+   width                    : 185pt;
+   height                   : 40pt;
+   line-height              : 40pt;
+   padding-right            : 20pt;
+   text-indent              : 4pt;
+   text-align               : left;
+   vertical-align           : middle;
+   box-shadow               : inset 0 0 3px #606060;
+   border                   : 1px solid #acacac;
+   -moz-border-radius       : 6px;
+   -webkit-border-radius    : 6px;
+   border-radius            : 6px;
+   -webkit-appearance       : none;
+   -moz-appearance          : none;
+   appearance               : none; 
+   font-family              : Arial,  Calibri, Tahoma, Verdana;
+   font-size                : 18pt;
+   font-weight              : 500;
+   color                    : #000099;
+   cursor                   : pointer;
+   outline                  : none;
+}
+select#format::-ms-expand {
+    display: none;
+} 
+select#format option
+{
+    padding             : 4px 10px 4px 10px;
+    font-size           : 11pt;
+    font-weight         : normal;
+}
+select#format option[selected]{
+ font-weight:bold
+}
+select#format option:nth-child(even) {
+background-color:#f5f5f5; 
+}
+select#format:hover {
+font-weight: 700;
+}
+select#format:focus {
+box-shadow: inset 0 0 5px #000099; font-weight: 600;
+}*/
+
+/*select#format
+{
+   width                    : 185pt;
+   height                   : 40pt;
+   line-height              : 40pt;
+   padding-right            : 20pt;
+   text-indent              : 4pt;
+   text-align               : left;
+   vertical-align           : middle;
+   box-shadow               : inset 0 0 3px #606060;
+   border                   : 1px solid #acacac;
+   -moz-border-radius       : 6px;
+   -webkit-border-radius    : 6px;
+   border-radius            : 6px;
+   -webkit-appearance       : none;
+   -moz-appearance          : none;
+   appearance               : none; 
+   font-family              : Arial,  Calibri, Tahoma, Verdana;
+   font-size                : 18pt;
+   font-weight              : 500;
+   color                    : #000099;
+   cursor                   : pointer;
+   outline                  : none;
+}
+select#format::-ms-expand {display: none;
+} 
+select#format option
+{
+    padding             : 4px 10px 4px 10px;
+    font-size           : 11pt;
+    font-weight         : normal;
+}
+select#format option[selected]{
+ font-weight:bold
+}
+select#format option:nth-child(even) {
+background-color:#f5f5f5; 
+}
+select#format:hover {
+font-weight: 700;
+}
+select#format:focus {
+box-shadow: inset 0 0 5px #000099; font-weight: 600;
+}*/
+
+/*RFI*/
+ul.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;/*    background-color: white;*/
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, .175);
+}
+ul.dropdown-menu li > a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #c50408; /*   background-color: blue !important;*/
+    white-space: nowrap;
+}
+ul.dropdown-menu li > a.rfi-link.dropdown-toggle:hover {
+    color: white !important;/*    background-color: blue !important;*/
+}
+ul.dropdown-menu {
+
+    /*    background: #3399ff;*/
+}
+ul.dropdown-menu li {
+
+    /*    background: #cce5ff;*/
+}
+ul.dropdown-menu a:hover {
+    color: white !important;
+    background: lightgray;
+}
+
+/*advanced search below*/
+
+/*Advanced search*/
+#main-content > div.row-fluid.ng-scope >  h3.ng-scope {
+    padding-left: 20px;
+}
+
+#main-content.row.ng-scope > div.container-fluid.ng-scope > div.ng-scope > h5 {
+    padding-left: 30px !important;
+    font-size: 18px;/*    the word courses on advanced search*/
+}
+
+form[name="advanced-search"] {
+    width: 90%;
+    margin: 0 auto !important;
+    float: none !important;
+    padding-bottom: 20px;
+}
+div.container-fluid.ng-scope > h3 {
+    color: #C50408;
+    padding-left: 20px;
+    font-size: 24px !important;
+}
+.h3, h3 {
+    font-size: 24px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+legend {
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: inherit;
+    color: #333;
+    border: 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+legend {
+    padding: 0;
+    border: 0;
+}
+input[name="q"] {
+
+    /* margin: 0; */
+    font: inherit;
+    color: inherit;
+    margin-top: 10px;
+    height: 29px;    /* padding-top: 50px; */
+    padding-bottom: 10px;
+}
+
+
+#main-content.row.ng-scope > div.container-fluid.ng-scope label.pull-right {
+
+    /*    this is for the sort by on far right and the pull right class. This setting alone can seriously screw up the SRP*/
+    padding-left: 0px;
+    font-size: 12px;
+}
+@media (min-width:768px) {
+    div.col-md-4.pull-right.form-inline > label.pull-right > select.sortby.form-control.ng-pristine.ng-valid.ng-touched {
+        display: inline-block;
+        width: 100% !important;
+        vertical-align: middle;
+        margin-top: 5px;
+    }
+}
+
+/*Search Results Navigator
+Previous - Result list - Next
+Buttons (below)*/
+#search-results-nav.well > div.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+#search-results-nav.well > div.btn-group> button.btn.btn-sm:first-child {
+    margin-left: 0;
+}
+#search-results-nav.well div.btn.disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;    /* opacity: .65; */
+}
+#search-results-nav.well > div.btn-group button.btn.btn-sm {
+    display: inline-block;    /*padding: 6px 12px;*/
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid rgba(134, 132, 132, 0.9);
+    border-radius: 2px;    /* background-image: none; */
+
+    /* border: 1px solid rgba(146, 18, 18, 0); */
+
+    /* border-radius: 4px; */
+}
+
+/*Search Results Navigator
+Previous - Result list - Next
+Buttons (above)*/
+
+/*div#user-menu.hidden-xs > ul.nav.nav-pills.nav-stacked.hidden-xs{
+ color: red !important;   
+ font-size: 10px;   
+ margin: 0 auto;
+ background-image: url('http://www.firstshowing.net/img/fantasticfour2-thing.jpg');
+ background-repeat: no-repeat;
+}*/
+
+/*div#user-menu.hidden-xs > ul.nav.nav-pills.nav-stacked.hidden-xs > li.user-summary{
+ color: red !important;   
+}*/
+
+
+#user-menu > .nav>li[class^="user-"]>a {
+    position: relative;
+    display: block;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: red !important;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-top: 0px;
+    margin-right: 0px;/*    padding: 0px 0px !important;*/
+}
+#user-menu.hidden-xs > ul.nav.nav-pills.nav-stacked.hidden-xs {
+    font-size: 14px;
+    /*background-color: lightblue;*/
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#user-menu {
+/*    background-color: lightgray;*/
+    padding-left: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #C50408;
+    position: relative;
+    display: block;
+    margin-top: 12px;
+    background-image: linear-gradient(to bottom, #e8e8e8 0, #f5f5f5 100%);
+    background-repeat: repeat-x;
+    border-color: #dcdcdc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+}
+
+#user-menu ul {
+    text-align: right;
+    margin-right: 2em;
+    width: 16em;
+}
+
+/*<div ui-view="" class="col-md-9 ng-scope"><div class="ng-scope">
+<h4>Messaging Preferences</h4>*/
+#user-menu ul.nav-stacked > li {
+    line-height: 2.5em !important;
+    clear: both !important;
+}
+#user-menu li.active {
+    margin-left: 1px;
+}
+#user-menu li:first-child {
+    margin-left: 4px;
+}
+#user-holds > table#holdst {
+    width: 100%;
+    margin: 0 auto !important;
+    float: none !important;
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+form.form-horizontal.user-update {
+    width: 100%;
+/*    background-color: lightgreen;*/
+    margin-top: 12px;
+    padding-bottom: 10px;
+}
+form.form-horizontal.user-update > fieldset.brief {
+    width: 80%;
+/*    background-color: lightblue;*/
+    margin-top: 12px;
+}
+form.form-horizontal.user-update > fieldset.brief legend {
+    padding-top: 10px !important;
+    padding-left: 10px !important;
+    padding-bottom: 0px !important;
+    border: 0 !important;
+    color: #C50408;
+}
+form.form-horizontal.user-update > fieldset.brief legend div.form-group {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 15px;
+}
+div.controls input {
+    margin-left: 25px;
+}
+form.form-horizontal.user-update > fieldset.brief > div.form-group > label {
+    padding-left: 25px !important;
+    font-size: 14px !important;
+    color: black !important;
+}
+/*UHA Red = #C50408*/
+/*<fieldset class="action">
+  <p class="hint">Requested changes will be reflected in your account after review by library staff.</p>
+  <button class="btn" ng-click="reset()">Cancel</button>
+  <button class="btn btn-primary" type="submit">Submit Changes</button>
+</fieldset>*/
+fieldset.action > p.hint {
+    padding-left: 10px !important;
+    padding-top: 10px !important;
+    text-align: left;
+}
+fieldset.action {
+    padding-left: 10px !important;
+}
+#user-issues.ng-scope > table#issuest {
+    width: 100%;
+    margin: 0 auto !important;
+    float: none !important;
+}
+#user-issues {
+    width: 100%;
+}
+#user-issues table > caption {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #C50408;
+}
+#user-summary > div.info {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#user-summary.ng-scope button.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#user-lists > h3 {
+    margin-left: 10px;
+}
+#user-lists > h3 > button {
+    margin-left: 10px;
+}
+#user-lists button.btn.btn-xs.ng-binding {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#user-lists button.btn.ng-binding {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+div.col-md-9.ng-scope > div.ng-scope > button.btn.btn-xs {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+#messaging-prefs > button.btn.btn-primary {
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 1px 5px;
+    font-size: 16px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+#messaging-prefs > div {
+    margin-left: 10px;
+}
+#messaging-prefs > button[type="submit"] {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+div.col-md-9.ng-scope > div.ng-scope {
+
+    /*    margin-left: 10px;
+    margin-top: 10px;*/
+    font-size: 14px;
+}
+div.col-md-9.ng-scope > div.ng-scope {
+    width: 100%;
+    float: left;
+    background-color: lightgray;
+    margin-top: 12px;
+    font-size: 14px !important;    /* line-height: 22px !important; */
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+    line-height: 20px !important;
+    color: #000000 !important;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #e8e8e8 0, #f5f5f5 100%);
+    background-repeat: repeat-x;
+    border-color: #dcdcdc;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05), 0 1px 0 rgba(255, 255, 255, .1);
+    background-color: #f5f5f5;
+    border: 1px solid #e3e3e3;
+}
+div.col-md-9.ng-scope > h4.ng-scope {
+    padding-left: 0px !important;
+    margin-left: 0px !important;
+}
+#holdst > caption {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #C50408;
+}
+#user-lists > h3.ng-binding {
+    margin-top: 5px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #C50408;
+}
+
+/*HOLDINGS TABLE REPLACEMENT TEXT WHEN 
+when bib.item_count = 0 implies Holdings table has no data, therefore hide it. 
+- http://hartford.waldo.sandbox.kohalibrary.com/app/work/303765*/
+span.item_unavail{
+line-height: 18px !important;
+font-weight: bold !important;
+font-size: 16px !important;
+ color: #C50408;  
+}
+
+p.hidden_map_reason{
+color: #C50408;
+line-height: 18px !important;
+font-weight: bold !important;
+font-size: 16px !important;
+}
+/*UHA Red = #C50408*/
+
+#user-menu .nav-pills>li.active>a{
+    color: #fff;
+    background-color: lightgray;
+    border: 1px solid #3175AF;
+}
+
+#user-menu .nav-pills>li.active>a:focus{
+    color: #fff;
+background-color: lightgray;
+    border: 1px solid #3175AF;
+}
+
+#user-menu .nav-pills>li.active>a:hover {
+    color: #fff;
+background-color: lightgray;
+    border: 1px solid #3175AF;
+}
+
