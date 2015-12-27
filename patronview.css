@@ -1,8 +1,3 @@
-/*UHA Red = #C50408*/
-
-/*30,144,255 is KOHA blue rgb(30,144,255) */
-
-/*FontAwesome*/
 @media (min-width: 768px) {
 
     .form-inline .form-control {
@@ -23,7 +18,7 @@
     -webkit-font-smoothing: antialiased;
 }
 
-/*Liblime Support tweaks*/
+
 #loaddate-limit {
     display: none;
 }
@@ -52,7 +47,7 @@ body {
     margin-left: 0px;
 }
 
-/*UHA Red = #C50408*/
+
 a {
     color: #C50408;
     text-decoration: none;
@@ -75,8 +70,8 @@ ul li {
     padding-left: 4px;
 }
 #public-masthead {
-    background: #ebebeb; /* Old browsers */
-    background: linear-gradient(to bottom, #ebebeb 0%, #adadad 100%); /* W3C */
+    background: #ebebeb; 
+    background: linear-gradient(to bottom, #ebebeb 0%, #adadad 100%); 
     border: none;
 }
 #public-masthead > nav.row.hidden-xs > ul {
@@ -133,7 +128,7 @@ ul li {
 #public-masthead .nav-pills {
     display: inline-block;
     line-height: 100%;
-    border: none;  /*  padding: 4px;*/
+    border: none; 
     color: white !important;
 }
 #public-masthead .nav-pills a:hover {
@@ -164,7 +159,6 @@ div.newbibdata a:hover {
     text-decoration: none !important;
 }
 
-/*NEW CODE NOV 15TH*/
 span.rowentry {
     display: block;
 }
@@ -188,11 +182,9 @@ span.rowentry {
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
-    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;/*padding-right: 2px; */
-}
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;}
 .uniformtitles_hover:hover {
 
-    /*padding-right: -2px;*/
 }
 span.rowentry a {
     padding-top: 1px;
@@ -202,8 +194,7 @@ span.rowentry a {
     margin-top: -1px;
     margin-bottom: -1px;
     margin-right: -1px;
-    margin-left: -1px;/*padding: 1px 1px; 
-    margin: -1px -1px; */
+    margin-left: -1px;
     border-radius: 1px;
     border-radius: 1px;
     border-radius: 1px;
@@ -211,7 +202,6 @@ span.rowentry a {
     border-radius: 1px;
 }
 
-/*BEGIN CSS FOR TITLE TEXT*/
 h4.display_title {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
     display: block !important;
@@ -233,10 +223,8 @@ span.titleText::after {
 span.titleText:after { 
  content: " ";
 }
-/*END CSS FOR TITLE TEXT*/
 
 
-/*008 - Fixed-Length Data Elements-General Information (NR) ---> gen_info_labelBDR*/
 .gen_info_labelBDR {
     line-height: 18px !important;
     color: #000000 !important;
@@ -249,27 +237,12 @@ span.titleText:after {
     font-size: 12px !important;
     font-weight: normal !important;
 }
-
-/*LABEL FOR TEXT ON BIB DETAIL RECORD ALL HAVE CLASS .newbibdata*/
-
-/*EXAMPLE-> Publisher:*/
 .newbibdata {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif !important;
     font-size: 14px !important;
     line-height: 20px !important;
     color: #000000 !important;
 }
-
-/*watch Series: when modifying newbibdata*/
-
-/*.data_item, div.newlocation > span, div.newavailability > span, div.newavailstats > span{
-  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
-  font-size: 14px !important;
-  font-weight: 400;
-}*/
-
-/*WATCH SERIES 440,490,830 DATA FONT SIZE AS THE ABOVE FONT SIZE CHANGES*/
-
 
 .marc5XX {
     display: block !important;
@@ -279,7 +252,7 @@ span.titleText:after {
 }
 .marc505_withPre:after {
     content: '\A' !important;
-    white-space: pre !important;   /* margin-top: 4px !important;*/
+    white-space: pre !important;  
 }
 .marc505_withPre:last-child:after {
     content: "" !important;
@@ -296,13 +269,10 @@ span.titleText:after {
 .marc7XX > span.bc::before {
     content: " > " !important;
 }
-
-/*UHA Red = #C50408*/
 #newsummaryinfo {
     background-color: rgb(255, 255, 255) !important;
 }
 
-/*marc500 as block?*/
 .marc130new, .marc700new, .marc710new, .marc711new, .marc511new, .marc505new, .marc500new, .marc520new, .marc6s, .marc590new, .series, .marc260264 {
     margin-left: 10px !important;
     display: block !important;
@@ -318,13 +288,10 @@ div.newseries a:hover {
     text-decoration: none !important;
 }
 span[class^="series"] {
-
-    /*THIS IS FOR THE 440,490 & 830 FIELDS-ONLY!*/
     margin-left: 2px !important;
-    font-size: 14px !important;/*    display: block;*/
+    font-size: 14px !important;
 }
 
-/*begin People/Groups involved with this Visual Material*/
 span.marc710new a {
     color: #C50408 !important;
     text-decoration: none !important;
@@ -334,7 +301,6 @@ span.marc710new a:hover {
     text-decoration: none !important;
 }
 
-/*end People/Groups involved with this Visual Material*/
 .newbiblabel {
     line-height: 18px !important;
     color: #000000 !important;
@@ -362,8 +328,6 @@ span.marc710new a:hover {
 .indent_data {
     padding-left: 3px !important;
 }
-
-/*THIS CREATES SPACE FOR 008 DATA*/
 .pushright {
     padding-left: 0px !important;
 }
@@ -372,9 +336,7 @@ span.marc710new a:hover {
     font-size: 18px !important;
 }
 .paddingLeft {
-    padding-left: 10px !important;/*    color: maroon !important;*/
-
-    /*    font-size: 18px !important;*/
+    padding-left: 10px !important;
 }
 .paddingBoth {
     padding-right: 5px !important;
@@ -384,7 +346,7 @@ span.marc710new a:hover {
 }
 .main_divider {
     padding-left: 4px !important;
-    padding-right: 4px !important;  /*font-weight: bold !important;*/
+    padding-right: 4px !important; 
     color: maroon !important;
     font-size: 18px !important;
 }
@@ -392,7 +354,6 @@ span.marc710new a:hover {
     font-size: 12px !important;
 }
 
-/*UHA Red = #C50408*/
 .breadcrumb_after::after {
     content: " > " !important;
 }
@@ -422,36 +383,15 @@ div.span7.bib-details h4 {
     margin-left: 50px !important;
 }
 .margin_top {
-
-    /*THE SPACE BETWEEN ROWS FOR THE BIB LABELS READ ON margin-top for CSS*/
     margin-top: 4px !important;
 }
 .margin_bottom_gen_info {
-
-    /*THE SPACE BETWEEN ROWS FOR THE BIB LABELS READ ON margin-top for CSS*/
     margin-top: 4px !important;
 }
-
-/*THE CSS BELOW IS FOR THE - Fixed-Length Data Elements-General Information (NR)*/
-
-/*So if you wanted to create a block with a special background etc that has the group of  Type, Format, Nature of Contents, Target Audience ETC you would
-make the changes to this class below*/
 .newformatdata {
 
-    /* background-color: #E8E8E8; */
 }
 
-/*THIS IS A NICE FEATURE BUT NOT TO A CATALOGER SEE- 505'S FOR Federal resume guidebook 
-span.marc505_withPre::first-letter{
-font-weight:bold;
-}
-*/
-
-/*END CSS MAINLY FOR BIB DETAIL RECORDS*/
-
-/*BEGIN CSS MAINLY FOR SEARCH RESULTS PAGE*/
-
-/*LEFT NAV BAR FACETS STATS BELOW*/
 #facets a:hover {
     color: #c50408 !important;
     text-decoration: none !important;
@@ -476,55 +416,25 @@ font-weight:bold;
     padding-left: 10px !important;
 }
 
-/*Owned By, Format, Author, Topic, etc*/
+
 li.facet_name > span.nav-header {
     font-size: 14px !important;
     color: #000000 !important;
 }
 
-/*UHA Red = #C50408*/
-
-/*Refine your search*/
 #facets > div > section > h5 {
-
-    /*Refine your search*/
     font-size: 18px !important;
     padding-left: 6px !important;
     color: #C50408 !important;
 }
 
-/*<ul class="nav nav-list">
-<!-- ngRepeat: facet_val in facet.values -->
-<li class="facet-link ng-scope" ng-repeat="facet_val in facet.values">
-<span facet="facet_val" class="ng-binding ng-isolate-scope">
-<a href="/app/search/sound?owned-by=%22ALLEN%22" title="Refine search" class="ng-binding">Allen Library</a>
- (20942)</span>
- </li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22MORTENSEN%22" title="Refine search" class="ng-binding">Mortensen Library</a> (1222)</span></li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22UHARTFORD%22" title="Refine search" class="ng-binding">University of Hartford</a> (28)</span></li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22CAREERSERV%22" title="Refine search" class="ng-binding">Career Services</a> (4)</span></li><!-- end ngRepeat: facet_val in facet.values --><li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span facet="facet_val" class="ng-binding ng-isolate-scope"><a href="/app/search/sound?owned-by=%22PERFLIB%22" title="Refine search" class="ng-binding">Hartt Performance Library</a> (1)</span></li><!-- end ngRepeat: facet_val in facet.values -->
-<li class="more-facets ng-hide" ng-show="facet.expandable">
-  <a href="" ng-click="facetDlgOpen(facet.field)"><i class="icon-ellipsis-horizontal"></i> more <i class="icon-ellipsis-horizontal"></i></a>
-</li>
-</ul>*/
-
-/*<li class="facet-link ng-scope" ng-repeat="facet_val in facet.values"><span class="ng-binding ng-isolate-scope" facet="facet_val">
-<a title="Refine search" class="ng-binding" href="/app/search/*:*?owned-by=%22ALLEN%22&amp;sort=popularity%20desc">Allen Library</a> (69213)</span></li>*/
-
-/*Allen Library (20942)
-Mortensen Library (1222)
-University of Hartford (28)
-Career Services (4)
-Hartt Performance Library (1)*/
 li.facet-link > span > a:hover {
-    background-color: #dddddd; /* Light Gray background upon hover if you want */
+    background-color: #dddddd; 
 }
 li.facet-link {
     line-height: 22px;
 }
 
-/* end of LEFT NAV BAR FACETS STATS ABOVE*/
-
-/*MAIN CONTENT AREA FOR SEARCH RESULTS BELOW, SIMILAR TO BDR VERSIONS BUT CHANGE FONT PROPERTIES AS NEEDED.*/
-
-/*008 - Fixed-Length Data Elements-General Information (NR) ---> gen_info_labelBDR*/
 .gen_info_labelSRP {
     line-height: 18px !important;
     color: #000000 !important;
@@ -561,11 +471,10 @@ li.facet-link {
     padding-right: 3px !important;
 }
 
-/*<div class="search-summary col-md-7 well well-small ng-scope" ui-view="searchsummary">*/
 div.search-summary.col-md-7.well {
     margin-top: 10px !important;
     margin-bottom: 20px !important;
-    margin-right: 20px !important;    /* margin-left: 10px; */
+    margin-right: 20px !important;   
     position: relative;
 }
 #search-results-action {
@@ -573,7 +482,7 @@ div.search-summary.col-md-7.well {
     margin-bottom: -10px;
 }
 
-/*List , Images buttons*/
+
 #search-results-action  .btn-group .btn+.btn, .btn-group .btn+.btn-group, .btn-group .btn-group+.btn, .btn-group .btn-group+.btn-group {
     margin-left: -1px;
 }
@@ -590,20 +499,15 @@ div.search-summary.col-md-7.well {
     vertical-align: middle;
 }
 
-/*END CSS MAINLY FOR SEARCH RESULTS PAGE*/
-
-/*Make this white */
 div.span2 a:hover {
     color: #ffffff !important;
     text-decoration: underline;
 }
 
-/*??*/
-.well {
 
-    /*    margin-top: 10px;*/
+.well {
     margin-bottom: 10px;
-    margin-right: 20px;  /*  margin-left: 10px;*/
+    margin-right: 20px;  
 }
 .well2 {
     min-height: 20px;
@@ -625,11 +529,6 @@ a:hover, a:focus {
     text-decoration: none !important;
 }
 
-/*
-http://www.cssportal.com/css3-rgba-generator/
-background-color: rgba(246, 222, 83, 0.7); 
-color: rgba(246, 222, 83, 0.7);
-*/
 .allnewhover > a {
     background: rgba(246, 222, 83, .7);
     padding: 1px 1px;
@@ -664,7 +563,6 @@ color: rgba(246, 222, 83, 0.7);
     box-shadow: rgba(0, 0, 0, 0.3) 0 1px 1px;
 }
 
-/*Begin For Maps*/
 #bib-details-map {
     position: relative;
 }
@@ -676,7 +574,6 @@ color: rgba(246, 222, 83, 0.7);
 }
 #details-sidebar {
 
-    /*margin-right:20px;*/
 }
 .new_small_text {
     font-size: 14px !important;
@@ -686,7 +583,6 @@ color: rgba(246, 222, 83, 0.7);
     cursor: pointer;
 }
 
-/*End for Maps*/
 li.ng-binding.ng-scope {
 }
 #bib-details-actions > ul.nav.nav-list >:first-child {
@@ -741,7 +637,7 @@ div.bybelowtitle {
     line-height: 14px;
 }
 
-/*??*/
+
 #main-content {
     background-color: #F5F5F5;
     border-style: solid;
@@ -756,9 +652,6 @@ div.bybelowtitle {
     margin-bottom: 30px;
 }
 
-/*For course reserves*/
-
-/*Course Reserves*/
 #main-content.row.ng-scope > div.container-fluid.ng-scope h4 {
     padding-left: 20px;
     font-size: 24px;
@@ -766,7 +659,6 @@ div.bybelowtitle {
     color: #C50408;
 }
 
-/*Courses*/
 #main-content.row.ng-scope > div.container-fluid.ng-scope h5 {
     padding-left: 30px;
     font-size: 20px;
@@ -781,13 +673,6 @@ div.bybelowtitle {
     float: none !important;
 }
 
-/*For course reserves and the html table*/
-
-/*div#main-content > div.row-fluid.ng-scope > div.ng-scope >  table{
-width:80%;
-margin: 0 auto !important;
-float: none !important;
-}*/
 
 
 #masthead {
@@ -814,7 +699,7 @@ h6.special_libraries {
     bottom: 55px;
     right: 5px;
     display: none;
-    text-align: right; /*   text-indent: -9999px;*/
+    text-align: right; 
     background: url('http://jpf.dynu.com/koha/bin514/images/uparrow32x32.png') no-repeat; /*   background-color: #000;*/
 }
 .scrollToTop:hover {
@@ -860,14 +745,11 @@ a.btn-primary:active {
     background-color: #610204;
 }
 
-/*Clear button below*/
-
-/*<button type="button" id="clearMastHead" class="btn btn-sm btn-default" ng-click="clearMastheadSearch()">Clear All</button>*/
 #clearMastHead.btn.btn-sm {
     margin-top: 1px;
 }
 
-/*Right side bar dropdowns*/
+
 ul.dropdown-menu.lists  li {
     background-color: #ededed;
 }
@@ -878,7 +760,7 @@ ul.dropdown-menu.lists  li a:hover {
     background: #C0C0C0;
 }
 
-/* */
+
 #listmenu.btn-primary.active {
     color: rgba(255, 255, 255, 0.75);
 }
@@ -891,7 +773,6 @@ ul.dropdown-menu.lists  li a:hover {
     border-color: #930306 #930306 #480103;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
 
-    /*  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
 }
 #listmenu.btn-primary:hover, button#listmenu.btn-primary:focus, button#listmenu.btn-primary:active, button#listmenu.btn-primary.active, button#listmenu.btn-primary.disabled, button#listmenu.btn-primary[disabled] {
     color: #ffffff;
@@ -901,8 +782,6 @@ ul.dropdown-menu.lists  li a:hover {
     background-color: #610204;
 }
 
-/*span > button.btn.btn-primary.ng-binding.ng-scope{
-}*/
 span > button.btn.btn-primary.ng-binding.ng-scope.active {
     color: rgba(255, 255, 255, 0.75);
 }
@@ -914,8 +793,6 @@ span > button.btn.btn-primary.ng-binding.ng-scope {
     background-repeat: repeat-x;/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc50408', endColorstr='#ff930306', GradientType=0);*/
     border-color: #930306 #930306 #480103;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
-    /*  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
 }
 span > button.btn.btn-primary.ng-binding.ng-scope:hover, span > button.btn.btn-primary.ng-binding.ng-scope:focus, span > button.btn.btn-primary.ng-binding.ng-scope:active, span > button.btn.btn-primary.ng-binding.ng-scope.active, span > button.btn.btn-primary.ng-binding.ng-scope.disabled, span > button.btn.btn-primary.ng-binding.ng-scope[disabled] {
     color: #ffffff;
@@ -935,8 +812,6 @@ div.col-md-3.cartlist-cnt > span > span > button.btn-primary {
     background-repeat: repeat-x;/*  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffc50408', endColorstr='#ff930306', GradientType=0);*/
     border-color: #930306 #930306 #480103;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
-    /*  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);*/
 }
 div.col-md-3.cartlist-cnt > span > span > button.btn-primary:hover, div.col-md-3.cartlist-cnt > span > span > button.btn-primary:focus, div.col-md-3.cartlist-cnt > span > span > button.btn-primary:active, div.col-md-3.cartlist-cnt > span > span > button.btn-primary.active, div.col-md-3.cartlist-cnt > span > span > button.btn-primary.disabled, div.col-md-3.cartlist-cnt > span > span > button.btn-primary[disabled] {
     color: #ffffff;
@@ -950,7 +825,6 @@ div.col-md-3.cartlist-cnt > span > span > button.btn-primary:active, div.col-md-
     float: left;
 }
 
-/*Home page right side*/
 .rhsbutton.active {
     color: rgba(255, 255, 255, 0.75) !important;
 }
@@ -976,7 +850,6 @@ div.col-md-3.cartlist-cnt > span > span > button.btn-primary:active, div.col-md-
     background-color: #333333 !important;
 }
 
-/*RHS BUTTON AND LIGHT BLUE*/
 .rhsbutton_blue.active {
     color: rgba(255, 255, 255, 0.75) !important;
 }
@@ -992,9 +865,6 @@ div.col-md-3.cartlist-cnt > span > span > button.btn-primary:active, div.col-md-
     border-color: #1082c4 #1082c4 #0a537d !important;
     border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25) !important;
     background-color: #1082ce !important;  /* Darken IE7 buttons by default so they stand out more given they won't have borders */
-
-    /*
-      filter: progid:DXImageTransform.Microsoft.gradient(enabled = false) !important;*/
 }
 .rhsbutton_blue:hover, .rhsbutton_blue:focus, .rhsbutton_blue:active, .rhsbutton_blue.active, .rhsbutton_blue.disabled, .rhsbutton_blue[disabled] {
     color: #ffffff !important;
@@ -1004,18 +874,6 @@ div.col-md-3.cartlist-cnt > span > span > button.btn-primary:active, div.col-md-
 .rhsbutton_blue:active, .rhsbutton_blue.active {
     background-color: #0c6395 !important;
 }
-
-/*FOR ADVANCED SEARCH FORM*/
-
-/*VARIOUS INPUT CONTROLS FOR ADVANCED SEARCH PAGE BELOW*/
-
-/*<form name="advanced-search" ng-submit="doSearch()" 
-class="ng-valid ng-scope ng-valid-date ng-valid-min ng-valid-max ng-dirty ng-valid-parse ng-valid-number">*/
-
-/*form[name="advanced-search"] button.btn.btn-primary{ 
-13AM675G062 - Yard Machines Lawn Tractor (1998) (Lowes)
-} */   
-
 
 form[name="advanced-search"] fieldset[name="limits"] > ul.search-limit-types {
 }
@@ -1045,9 +903,6 @@ div.ng-pristine.ng-untouched.ng-valid.ng-isolate-scope select.form-control {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-/* */
-
-/*Sort by*/
 li.search-sort-order.search-limit.form-inline select.form-control {
     display: block;
     width: 28% !important;
@@ -1065,7 +920,6 @@ li.search-sort-order.search-limit.form-inline select.form-control {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
 }
 
-/* */
 form[name="advanced-search"] button.btn.btn-primary {
     color: #ffffff !important;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
@@ -1083,7 +937,6 @@ form[name="advanced-search"] button.btn.btn-primary:active, form[name="advanced-
     background-color: #610204 !important;
 }
 
-/*FOR MODAL POPUP*/
 div.modal-footer > button.btn {
     color: #ffffff !important;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25) !important;
@@ -1101,7 +954,6 @@ div.modal-footer > button.btn:active, div.modal-footer > button.btn.active {
     background-color: #610204 !important;
 }
 
-/*MAP POPUP 4 HOMEPAGE*/
 a.mapselected {
     background-color: #CFCFCF;
     color: white;
@@ -1142,11 +994,6 @@ span.atag4homepagemap > a.close {
     opacity: 0.9;
 }
 
-/*END OF MAP POPUP 4 HOMEPAGE*/
-
-/*<div class="tabbable ng-isolate-scope" id="details-tabs" tabset="" style="width: 96%;">*/
-
-/*LANDING PAGE SLIDE DOWN MAPS*/
 #slide_down_mapMORTY, span#hideMortyMap {
     color: #C50408;
 }
@@ -1176,10 +1023,6 @@ span.atag4homepagemap > a.close {
 .homepagemapsA:hover, .homepagemapsM:hover {
     cursor: pointer;
 }
-
-/*end of LANDING PAGE SLIDE DOWN MAPS*/
-
-/*Call # and Location CSS for right sidebar area*/
 #cn_and_loc {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
@@ -1188,7 +1031,6 @@ span.atag4homepagemap > a.close {
     font-weight: 700;
 }
 
-/*FOR MOBILE DISPLAY CSS BELOW*/
 .mobile-header {
     margin: 0em -1em 1.5em -1em;
     padding: .2em 1em;
@@ -1197,7 +1039,7 @@ span.atag4homepagemap > a.close {
     text-align: center;
 }
 .pagination {
-    margin: 20px 5px; /*THIS AFFECTS DESKTOP AND MOBILE, BUT IMPROVES THE MOBILE DISPLAY MAINLY*/
+    margin: 20px 5px;
 }
 div.cover-img:empty {
     display: none !important;
@@ -1248,10 +1090,6 @@ nav.visible-sm {
     }
 }
 
-/*BEGIN CSS FOR COURSE RESERVES*
-$('<p id="loadcode" class="newloading"><img src="http://jpf.dynu.com/koha/bin514/images/ajax-loader.gif" alt="Page Loading">
-Loading....Show me until finish tweaking</p>')
-*/
 div.loading {
     opacity: 0.0 !important;
 }
@@ -1270,18 +1108,15 @@ div.loading {
     border: 1px solid gray;
 }
 
-/*??*/
 #main-content.row.ng-scope > div.container-fluid.ng-scope table {
     width: 100%;
     margin: 0 auto !important;
     float: none !important;
 }
 
-/*zebra stripes below*/
-.table-striped>tbody>tr:nth-of-type(odd) {
 
-    /*    background-color: #f9f9f9;*/
-    background-color: #E8E8E8;
+.table-striped>tbody>tr:nth-of-type(odd) {
+   background-color: #E8E8E8;
 }
 .table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
     border-top: 0;
@@ -1322,7 +1157,7 @@ tr.course:hover {
     background-color: #F0E68C !important;
 }
 
-/*BEGIN CSS for the revealed tables */
+
 tr#neg1 {
     background-color: lightblue;
 }
@@ -1354,8 +1189,6 @@ span[id^="cid"] {
     border: 1px solid black;
 }
 [id^="pltbl"] tr {
-
-    /*background-color:  green;*/
     height: 14px;
     padding: 3px !important;
     border: 1px solid black;
@@ -1367,7 +1200,7 @@ span[id^="cid"] {
     background-color: lightgray;
 }
 [id^="pltbl"] tr:nth-of-type(odd) {
-/*    background-color: green;*/
+
     background-color: rgba(183, 181, 181, 0.45);
 }
 [id^="pltbl"] td {
@@ -1376,15 +1209,11 @@ span[id^="cid"] {
     font-size: 12px;
 }
 
-/*[id^="pltbl"] {
-
-}*/
 tr.items_tbl_added {
-   /* THIS COLOR AFFECTS DYN TABLE BG COLOR AND ALT ROW COLOR*/
+ 
     background-color: rgba(216, 211, 211, 0.5); !important;
 }
 
-/*END CSS for the revealed tables */
 .boldit {
     font-weight: bold;
     font-size: 110%;
@@ -1472,13 +1301,10 @@ div ul.dropdown-menu > span li.yuimenuitem a.yuimenuitemlabel {
     display: block;
 }
 div ul.dropdown-menu > span li.yuimenuitem a.yuimenuitemlabel:hover {
-    background: rgb(30, 144, 255) !important;  /*rgb(30,144,255) IS KOHA BLUE*/
-
-    /*SEARCH FOR THIS TITLE In KOHA background blue and text color becomes white when hovered*/
+    background: rgb(30, 144, 255) !important; 
     color: white !important
 }
 
-/*SEARCH FOR THIS TITLE - CARET*/
 div.btn-group > a.btn.btn-small.dropdown-toggle:hover .caret {
     border-top-color: #C50408;
     border-bottom-color: #C50408;
@@ -1488,11 +1314,6 @@ div.btn-group > a.btn.btn-small.dropdown-toggle:focus .caret {
     border-bottom-color: #C50408;
 }
 
-/*end SEARCH FOR THIS TITLE - CARET*/
-
-/*end FOR BIB DETAIL RECORDS > Title Actions > Search for this title in...*/
-
-/*begin FOR BIB DETAIL RECORDS > Title Actions > View record as...*/
 #bib-details-actions ul li div.dropdown button {
     color: black;
 }
@@ -1503,21 +1324,12 @@ div.btn-group > a.btn.btn-small.dropdown-toggle:focus .caret {
 #bib-details-actions ul li div.dropdown ul.dropdown-menu li > a {
 }
 
-/*VIEW RECORD AS.... DROPDOWN*/
-
-/*ul > li a.marcview, ul > li a.expandedmarcview , ul > li a.isbdmarcview, ul > li a.apaciteview{
-  color: purple;
-  text-decoration: none;
-}
-*/
 ul > li a.marcview:hover, ul > li a.expandedmarcview:hover, ul > li a.isbdmarcview:hover, ul > li a.apaciteview:hover {
     color: white !important;
     text-decoration: none !important;
     background: rgb(30, 144, 255) !important;
 }
 .nav .dropdown-toggle .caret {
-
-    /*caret is little triangle*/
     border-top-color: #000000;
     border-bottom-color: #000000;
     margin-top: 6px;
@@ -1541,14 +1353,10 @@ div.btn-group > button.btn.btn-small.dropdown-toggle:focus .caret {
     border-bottom-color: #C50408;
 }
 #bib-details-actions > ul li > a {
-
-    /*when the VIEW RECORD AS.... dropdown is clicked this is the color for the MARC, ISBD , APA etc    */
     color: black;
 }
 
-/*end VIEW RECORD AS.... DROPDOWN*/
 
-/*end FOR BIB DETAIL RECORDS > Title Actions > View record as...*/
 
 
 #bib-details-export > h5 {
@@ -1556,17 +1364,6 @@ div.btn-group > button.btn.btn-small.dropdown-toggle:focus .caret {
     margin-top: -2px;
 }
 
-/*begin Bib Details > Save Record */
-
-/*end Bib Details > Save Record */
-
-/*BIB Details Holding Tab below*/
-
-/*Holdings tab for BDR*/
-
-/*??*/
-
-/*HOLDINGS TABLE CSS*/
 #details-tabs.tabbable {
     margin: 0;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -1595,130 +1392,6 @@ div.btn-group > button.btn.btn-small.dropdown-toggle:focus .caret {
     color: white !important;
 }
 
-/*.nav-tabs {
-    border-bottom: 1px solid #ddd; 
-}*/
-
-/*.nav-tabs>li {
-   float: left;
-   margin-bottom: -1px;
-}*/
-
-/*div#details-tabs.nav {
-   padding-left: 15px;
-   margin-bottom: 0;
-   list-style: none;
-}*/
-
-/*HOLDINGS TABLE BELOW*/
-
-/*FIX THIS*/
-
-/*#details-tabs.tabbable{
-   margin: 0;
-   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-   font-size: 14px;
-   line-height: 16px;
-   color: #000000;
-   background-color: #ffffff;  
-}*/
-
-/*END OF HOLDINGS TABLE */
-
-/*SELECT ELEMENT WITH UNICODE SYMBOL: DOWN-ARROW (&#x25bc;) format*/
-
-/*select#format
-{
-   width                    : 185pt;
-   height                   : 40pt;
-   line-height              : 40pt;
-   padding-right            : 20pt;
-   text-indent              : 4pt;
-   text-align               : left;
-   vertical-align           : middle;
-   box-shadow               : inset 0 0 3px #606060;
-   border                   : 1px solid #acacac;
-   -moz-border-radius       : 6px;
-   -webkit-border-radius    : 6px;
-   border-radius            : 6px;
-   -webkit-appearance       : none;
-   -moz-appearance          : none;
-   appearance               : none; 
-   font-family              : Arial,  Calibri, Tahoma, Verdana;
-   font-size                : 18pt;
-   font-weight              : 500;
-   color                    : #000099;
-   cursor                   : pointer;
-   outline                  : none;
-}
-select#format::-ms-expand {
-    display: none;
-} 
-select#format option
-{
-    padding             : 4px 10px 4px 10px;
-    font-size           : 11pt;
-    font-weight         : normal;
-}
-select#format option[selected]{
- font-weight:bold
-}
-select#format option:nth-child(even) {
-background-color:#f5f5f5; 
-}
-select#format:hover {
-font-weight: 700;
-}
-select#format:focus {
-box-shadow: inset 0 0 5px #000099; font-weight: 600;
-}*/
-
-/*select#format
-{
-   width                    : 185pt;
-   height                   : 40pt;
-   line-height              : 40pt;
-   padding-right            : 20pt;
-   text-indent              : 4pt;
-   text-align               : left;
-   vertical-align           : middle;
-   box-shadow               : inset 0 0 3px #606060;
-   border                   : 1px solid #acacac;
-   -moz-border-radius       : 6px;
-   -webkit-border-radius    : 6px;
-   border-radius            : 6px;
-   -webkit-appearance       : none;
-   -moz-appearance          : none;
-   appearance               : none; 
-   font-family              : Arial,  Calibri, Tahoma, Verdana;
-   font-size                : 18pt;
-   font-weight              : 500;
-   color                    : #000099;
-   cursor                   : pointer;
-   outline                  : none;
-}
-select#format::-ms-expand {display: none;
-} 
-select#format option
-{
-    padding             : 4px 10px 4px 10px;
-    font-size           : 11pt;
-    font-weight         : normal;
-}
-select#format option[selected]{
- font-weight:bold
-}
-select#format option:nth-child(even) {
-background-color:#f5f5f5; 
-}
-select#format:hover {
-font-weight: 700;
-}
-select#format:focus {
-box-shadow: inset 0 0 5px #000099; font-weight: 600;
-}*/
-
-/*RFI*/
 ul.dropdown-menu {
     position: absolute;
     top: 100%;
@@ -1731,7 +1404,7 @@ ul.dropdown-menu {
     margin: 2px 0 0;
     font-size: 14px;
     text-align: left;
-    list-style: none;/*    background-color: white;*/
+    list-style: none;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
     border: 1px solid #ccc;
@@ -1746,28 +1419,22 @@ ul.dropdown-menu li > a {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #c50408; /*   background-color: blue !important;*/
+    color: #c50408; 
     white-space: nowrap;
 }
 ul.dropdown-menu li > a.rfi-link.dropdown-toggle:hover {
-    color: white !important;/*    background-color: blue !important;*/
+    color: white !important;
 }
 ul.dropdown-menu {
-
-    /*    background: #3399ff;*/
 }
 ul.dropdown-menu li {
 
-    /*    background: #cce5ff;*/
 }
 ul.dropdown-menu a:hover {
     color: white !important;
     background: lightgray;
 }
 
-/*advanced search below*/
-
-/*Advanced search*/
 #main-content > div.row-fluid.ng-scope >  h3.ng-scope {
     padding-left: 20px;
 }
@@ -1817,8 +1484,6 @@ legend {
     border: 0;
 }
 input[name="q"] {
-
-    /* margin: 0; */
     font: inherit;
     color: inherit;
     margin-top: 10px;
@@ -1828,8 +1493,6 @@ input[name="q"] {
 
 
 #main-content.row.ng-scope > div.container-fluid.ng-scope label.pull-right {
-
-    /*    this is for the sort by on far right and the pull right class. This setting alone can seriously screw up the SRP*/
     padding-left: 0px;
     font-size: 12px;
 }
@@ -1842,9 +1505,6 @@ input[name="q"] {
     }
 }
 
-/*Search Results Navigator
-Previous - Result list - Next
-Buttons (below)*/
 #search-results-nav.well > div.btn-group>.btn:first-child:not(:last-child):not(.dropdown-toggle) {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
@@ -1857,10 +1517,10 @@ Buttons (below)*/
     cursor: not-allowed;
     filter: alpha(opacity=65);
     -webkit-box-shadow: none;
-    box-shadow: none;    /* opacity: .65; */
+    box-shadow: none;   
 }
 #search-results-nav.well > div.btn-group button.btn.btn-sm {
-    display: inline-block;    /*padding: 6px 12px;*/
+    display: inline-block;  
     margin-bottom: 0;
     font-size: 12px;
     font-weight: 400;
@@ -1876,29 +1536,8 @@ Buttons (below)*/
     -ms-user-select: none;
     user-select: none;
     border: 1px solid rgba(134, 132, 132, 0.9);
-    border-radius: 2px;    /* background-image: none; */
-
-    /* border: 1px solid rgba(146, 18, 18, 0); */
-
-    /* border-radius: 4px; */
+    border-radius: 2px;  
 }
-
-/*Search Results Navigator
-Previous - Result list - Next
-Buttons (above)*/
-
-/*div#user-menu.hidden-xs > ul.nav.nav-pills.nav-stacked.hidden-xs{
- color: red !important;   
- font-size: 10px;   
- margin: 0 auto;
- background-image: url('http://www.firstshowing.net/img/fantasticfour2-thing.jpg');
- background-repeat: no-repeat;
-}*/
-
-/*div#user-menu.hidden-xs > ul.nav.nav-pills.nav-stacked.hidden-xs > li.user-summary{
- color: red !important;   
-}*/
-
 
 #user-menu > .nav>li[class^="user-"]>a {
     position: relative;
@@ -1909,16 +1548,14 @@ Buttons (above)*/
     margin-bottom: 0px;
     margin-left: 5px;
     margin-top: 0px;
-    margin-right: 0px;/*    padding: 0px 0px !important;*/
+    margin-right: 0px;
 }
 #user-menu.hidden-xs > ul.nav.nav-pills.nav-stacked.hidden-xs {
     font-size: 14px;
-    /*background-color: lightblue;*/
     margin-top: 5px;
     margin-bottom: 5px;
 }
 #user-menu {
-/*    background-color: lightgray;*/
     padding-left: 0px;
     font-size: 14px;
     font-weight: 500;
@@ -1941,8 +1578,6 @@ Buttons (above)*/
     width: 16em;
 }
 
-/*<div ui-view="" class="col-md-9 ng-scope"><div class="ng-scope">
-<h4>Messaging Preferences</h4>*/
 #user-menu ul.nav-stacked > li {
     line-height: 2.5em !important;
     clear: both !important;
@@ -1965,13 +1600,11 @@ Buttons (above)*/
 }
 form.form-horizontal.user-update {
     width: 100%;
-/*    background-color: lightgreen;*/
     margin-top: 12px;
     padding-bottom: 10px;
 }
 form.form-horizontal.user-update > fieldset.brief {
     width: 80%;
-/*    background-color: lightblue;*/
     margin-top: 12px;
 }
 form.form-horizontal.user-update > fieldset.brief legend {
@@ -1994,12 +1627,7 @@ form.form-horizontal.user-update > fieldset.brief > div.form-group > label {
     font-size: 14px !important;
     color: black !important;
 }
-/*UHA Red = #C50408*/
-/*<fieldset class="action">
-  <p class="hint">Requested changes will be reflected in your account after review by library staff.</p>
-  <button class="btn" ng-click="reset()">Cancel</button>
-  <button class="btn btn-primary" type="submit">Submit Changes</button>
-</fieldset>*/
+
 fieldset.action > p.hint {
     padding-left: 10px !important;
     padding-top: 10px !important;
@@ -2089,9 +1717,6 @@ div.col-md-9.ng-scope > div.ng-scope > button.btn.btn-xs {
     font-size: 14px;
 }
 div.col-md-9.ng-scope > div.ng-scope {
-
-    /*    margin-left: 10px;
-    margin-top: 10px;*/
     font-size: 14px;
 }
 div.col-md-9.ng-scope > div.ng-scope {
@@ -2130,9 +1755,6 @@ div.col-md-9.ng-scope > h4.ng-scope {
     color: #C50408;
 }
 
-/*HOLDINGS TABLE REPLACEMENT TEXT WHEN 
-when bib.item_count = 0 implies Holdings table has no data, therefore hide it. 
-- http://hartford.waldo.sandbox.kohalibrary.com/app/work/303765*/
 span.item_unavail{
 line-height: 18px !important;
 font-weight: bold !important;
